@@ -1,0 +1,33 @@
+{
+  "name": "node-seed",
+  "version": "1.0.0",
+  "description": "Dockerized Node-Express-GraphQL Seed",
+  "keywords": [],
+  "author": "eemb3d",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "axios": "^0.19.2",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "dotenv": "8.2.0",
+    "helmet": "3.22.0",
+    "async": "^3.2.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.5",
+    "express-validator": "^6.4.0",
+    "http-errors": "~1.7.3",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.10",
+    "morgan": "~1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "cors": "2.8.5"
+  }
+}
